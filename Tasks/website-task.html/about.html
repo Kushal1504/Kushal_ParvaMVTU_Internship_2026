@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-devp task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="../../Media/eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About us</h1>
+
+    </section>
+
+
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the worlds largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt asperiores qui, sequi consectetur sint temporibus?</p>
+                <a href="" class="hero-btn blue-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="../../Media/eduford_img/about.jpg" alt="">
+        </div>
+    </section>
+
+    
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos neque fuga laborum atque <br>sit dolores adipisci temporibus minus eius provident?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made with .......</p>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200";
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/079c2998c3.js" crossorigin="anonymous"></script>
+</body>
+</html>

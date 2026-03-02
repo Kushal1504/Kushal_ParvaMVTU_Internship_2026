@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: black;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+
+        .big-box{
+            height: 600px;
+            background-color: rgb(138, 8, 12);
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            flex-direction: row; 
+            flex-wrap: wrap;
+            align-content: center;
+            gap: 20px;
+        }
+
+        .small-box{
+            width: 10px;
+            height: 10px;
+            background-color: rgb(0, 26, 255);
+            border: 1px solid white;
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .parent{
+            height: 650px;
+            background-color: rgb(0, 212, 240);
+            display: flex;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            border: 1px solid black;
+        }
+        .child1{
+            flex-shrink: 2;
+        }
+        .child2{
+            flex-grow:2 ;
+        }
+
+        img{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="../../Media/Image/parvamlogo.png" height="100px" alt=""></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br>
+
+    <aside>
+        <div class="social-media">
+        <a href="https://facebook.com">
+          <i class="fa-brands fa-facebook"></i>  
+        </a>
+         <a href="https://instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+         </a>
+        <a href="https://whatsapp.com">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://x.com">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://youtube.com">
+             <i class="fa-brands fa-youtube"></i>
+        </a>
+        </div>
+        </aside>
+         <section>
+         <div class="big_box">
+        <div class="small-box"> 
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="1">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="2">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="3">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="4">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="5">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="6">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="7">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="8">
+        </div>
+        <div class="small-box">
+            <img src="../Media/Image/pexels-vadutskevich-13554823.jpg" alt="9">
+        </div>
+    </div>
+    </section>
+
+    
+    <script src="https://kit.fontawesome.com/eeb7f85c10.js" crossorigin="anonymous"></script>
+</body>
+</html>

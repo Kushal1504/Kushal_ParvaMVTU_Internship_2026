@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 Task</title>
+    <style>
+        h1{
+            color: red;
+            font-weight: bolder;
+            margin: 50px;
+            border: 50px;
+        }
+        
+        * {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+
+        .div1 {
+            color: orangered;
+        }
+
+        #para1 {
+            background-color: grey;
+            color: rgb(210, 207, 36);
+        }
+
+        span{
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+
+        div{
+            display: inline;
+        }
+
+        #div1{
+            display: none;
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            height: 100px;
+        }
+
+        #static{
+            position: static;
+            background-color: aqua;
+            top: 100px;
+            left: 100px;
+        }
+        #relative{
+            position: relative;
+            left: 30px;
+            top: 30px;
+            width: 300px;
+            height: 100px;
+            background-color: rgb(18, 194, 230);
+            border: 2px solid rgb(255, 0, 0);
+        }
+        .containers{
+            position: relative;
+            top: 50px;
+            background-color: rgb(95, 118, 126);
+            left: 50px;
+            width: 400px;
+            height: 200px;
+        }
+        #child1{
+            position: absolute;
+            top: 40px;
+            left: 50px;
+        }
+
+        #div4 {
+            position: sticky;
+            top: 2px;
+            background-color: black;
+            color: white;
+            height: 30px;
+            z-index: 2;
+
+        }
+
+        #div5 {
+            background-color: yellow;
+            color: black;
+            width: 160px;
+            height: 220px;
+            position: fixed;
+            bottom: 40px;
+            left: 0px;
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div4">
+        Day5 Task
+    </div>
+    <h1>Using Selectors</h1>
+    <div class="div1">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, tempora!</div>
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, corrupti.</p>
+    <hr>
+
+    <h1>Using Display elements</h1>
+    <pre>
+        Hi
+                hello
+        1234
+    </pre>
+    <span>This is</span>
+    <span>5th day task</span>
+
+    <div>this is block</div>
+    <div>But prints on same line...</div>
+
+    <p>The secert Message:</p>
+    <div id="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, architecto.</div>
+    <p>msg is hidden</p>
+
+    <div class="container">
+        <div class="div">task1</div>
+        <div class="div">task2</div>
+        <div class="div">task3</div>
+        <div class="div">task4</div>
+    </div>
+    <hr>
+    
+    <h1>Using Position</h1>
+    <div id="static">
+        Lorem ipsum dolor sit amet.
+    </div>
+
+    <div id="relative">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ut?
+    </div>
+
+    <div class="containers">
+        <div id="child1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quia.
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero deserunt quasi. Ullam pariatur at ex quam neque aspernatur quis architecto, repellat, placeat error suscipit magnam libero saepe minima repellendus!
+        Laudantium impedit accusantium harum placeat hic! Temporibus expedita molestiae alias! Provident asperiores sunt enim adipisci iste, minima totam saepe quidem reiciendis? Dolore suscipit molestiae consequatur, perferendis id deleniti voluptatum eum?
+        Consectetur tempora suscipit quaerat. Quos, quidem eveniet possimus soluta laborum eos quae a. Ipsum eligendi nostrum obcaecati nemo iure possimus consequatur, quam, fuga ducimus dolores esse quaerat commodi quas nesciunt?
+        Perspiciatis inventore nisi ipsum modi illo necessitatibus esse saepe ipsam repellendus totam reiciendis suscipit quo cupiditate commodi culpa a non dolorem soluta, maiores accusantium aperiam qui eum nihil sit! Voluptate.
+        A, sit id incidunt aperiam libero provident, dolorem, perspiciatis nemo consequuntur culpa quaerat porro maiores. Ducimus a, sapiente excepturi molestiae aspernatur nemo. Perferendis, nulla eos. Eos possimus quibusdam molestiae nemo.
+        Odit sed quos nisi culpa quod ex commodi corporis! Numquam repudiandae exercitationem, corporis sit illo molestiae incidunt optio quas sunt non quis laborum architecto est et fuga impedit voluptatum delectus!
+        Quas corporis ipsam reprehenderit nostrum aliquid, nisi vel fugiat, voluptatibus, modi rem quae id blanditiis deserunt ducimus maiores iste tenetur animi! Aut perspiciatis tenetur, recusandae explicabo possimus consectetur quam illum.
+        Distinctio mollitia debitis voluptate, minima eligendi ex omnis facere, sequi minus sint ut enim ipsum, ea quia dolor quisquam eveniet ipsam cum porro. Esse velit consequatur quia unde nobis voluptate?
+    </div>
+    <div id="div4">
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+    </div>
+    <br>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet optio sunt commodi quisquam reiciendis eius dignissimos provident laborum dolorem, labore fugiat assumenda cupiditate aliquam officia ea placeat sapiente quas?
+        Corrupti et at quisquam deleniti ad asperiores cupiditate tempora ea sapiente perspiciatis eos, dolores odio assumenda repellendus fugiat, nobis ullam! Incidunt repudiandae cupiditate quasi? Unde delectus accusantium maiores ipsam accusamus?
+        Animi sit exercitationem dolorem, totam tenetur, et officiis sunt quia maiores impedit amet illo, rem autem beatae laborum. Sit dignissimos alias harum vel quam? Rerum et nam natus enim impedit?
+        Voluptates, vitae quia quisquam impedit optio unde alias aliquid asperiores recusandae quam voluptatibus, repellat odio minus est? Delectus, nostrum minima eaque odio nihil necessitatibus aliquid id culpa sed, hic ipsum.
+        Soluta officia inventore natus ipsa, obcaecati repellendus est vel officiis placeat molestiae maiores ipsam. Atque neque nemo iusto repudiandae architecto. Labore voluptas dicta soluta nulla rerum placeat ut. Tempora, recusandae!
+        Dolorem enim quo alias aspernatur magnam error praesentium itaque accusamus aut temporibus, soluta esse. Veritatis, atque nam? Impedit atque, ab vel natus saepe eius illo quod possimus quos a molestias?
+        Repellendus facere animi laboriosam placeat, quas quod necessitatibus praesentium saepe perferendis atque sapiente itaque. Quos maxime vitae sapiente fuga ipsum quas ipsa illo eaque itaque. Error quasi voluptates enim facilis.
+        Earum, temporibus iure. Facilis debitis repudiandae natus reiciendis aut praesentium vel rerum illum consectetur id voluptatem nesciunt consequuntur officia dicta tempora numquam assumenda, minima modi quasi? Provident reprehenderit dolore officia.
+        Rerum earum similique quas laborum eius nam temporibus quidem, quasi ratione reprehenderit, eaque exercitationem velit quod hic? Incidunt, consectetur ex reiciendis esse, nobis numquam excepturi sunt facere sit, veritatis minus!
+        Consectetur voluptatum repellat recusandae tenetur voluptates ducimus eius consequatur consequuntur quaerat alias, ab sapiente repudiandae laudantium, ipsum magni perferendis suscipit accusantium officiis rerum amet! Maiores dolorem vitae earum nihil nostrum?
+        Eligendi quia quidem placeat et quibusdam harum necessitatibus doloremque recusandae molestiae, omnis hic? Natus error dicta minima fugiat autem quaerat accusamus, ad recusandae delectus neque labore quas omnis hic nobis?
+        Consectetur aspernatur, vero dolores officiis placeat temporibus sunt nihil culpa? Sint magni quae culpa soluta vitae in! Eius ut quibusdam inventore officiis nemo mollitia debitis? Error voluptas delectus similique pariatur.
+        Blanditiis in dolorum quaerat, illo ex sint enim maiores iusto laboriosam facilis officiis rerum ratione ullam ipsam aperiam quos tempore sunt autem velit nostrum! Eveniet possimus necessitatibus repellat fuga. Debitis?
+        Aut nostrum aliquam natus vero unde, quae odit repudiandae repellendus vitae! Quis quas saepe magnam veniam veritatis tempore a, labore cupiditate ab pariatur, sapiente fugiat laborum, eaque maiores nostrum perspiciatis!
+        Ratione officia suscipit perspiciatis reiciendis quibusdam, doloribus praesentium, ex aliquam delectus consequuntur aliquid eum at vitae officiis itaque ea libero veniam dolor accusantium natus nisi doloremque, velit asperiores. Quo, itaque.
+        Eaque natus veniam aliquam ipsam quasi rem repudiandae incidunt hic voluptatum minima, neque deleniti vel quibusdam cupiditate recusandae nesciunt! Nemo aliquid maxime optio illum quaerat voluptates, dolore sapiente quisquam iste.
+        Consequatur odit dignissimos quos dolorem perspiciatis! Dignissimos molestias incidunt soluta odio, explicabo quos veniam fugit asperiores saepe. Incidunt at, nostrum vitae nesciunt ullam repellat laborum voluptate dignissimos. Iure, impedit ipsum!
+        Hic officia pariatur corporis in rem explicabo id, fuga labore accusamus at cupiditate nesciunt similique quia voluptatum, asperiores ut perferendis, ab accusantium ad cum neque quod temporibus. Fugit, ratione quas!
+        Facere, doloribus. Dolores illum temporibus sed dolore placeat sequi dolorum illo explicabo expedita? Atque esse perspiciatis tempora laborum. Rem veritatis obcaecati corrupti adipisci explicabo fugit optio libero laudantium earum iusto?
+        Quibusdam minima architecto consequatur rem amet ullam voluptatem possimus unde labore ut porro numquam necessitatibus libero, deserunt ratione beatae at vero in iste tenetur ad rerum. Accusamus voluptatem sunt totam?
+        Nesciunt sed temporibus accusamus labore! Eaque ut qui magnam accusantium quos culpa beatae quasi aliquam illo soluta enim sint delectus, voluptate laudantium porro quia repudiandae odit consectetur officia sapiente laborum?
+        Aliquam reiciendis, quisquam modi corrupti rerum sint quos omnis! Veniam suscipit iste tenetur, accusamus et minus harum, odio eos ratione nobis incidunt fuga! Sapiente nihil doloribus officia, aliquam minus possimus.
+        Blanditiis quae ipsum quam recusandae laboriosam consequuntur voluptate neque culpa, voluptatem eligendi libero fugit tempora asperiores sapiente molestias explicabo provident est nihil ab voluptatibus vitae quia consectetur. Animi, minima non?
+        Aliquam ipsum dolorem in. Ut assumenda temporibus consectetur veritatis eligendi vel necessitatibus autem esse, voluptatem itaque odit ipsum voluptates ipsam hic non aspernatur asperiores. Ratione vel natus nam aliquid enim.
+        Beatae nemo qui cumque, temporibus nesciunt dolorem repellat totam, enim veritatis debitis quod minima fuga, sunt cum dicta doloremque aliquid quo unde quas molestias odio ad? At quae odit voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quo distinctio iusto maiores quaerat delectus voluptatum blanditiis, neque obcaecati dicta repellendus est placeat vel doloremque esse magnam eos dignissimos et.
+        Illo quisquam est ipsa numquam rem asperiores, ullam inventore ipsum suscipit quibusdam dolorem nostrum ratione dolores blanditiis fugit doloribus praesentium! Voluptatem sit minima possimus molestiae ea odit ratione cumque tenetur.
+        Omnis dolorem asperiores expedita accusamus sapiente blanditiis quaerat alias facilis laboriosam corrupti perferendis exercitationem ex, quo nostrum ipsa, repellat odit itaque eius aut natus quibusdam delectus modi tempora quis? Aspernatur.
+        Nesciunt porro natus maxime reprehenderit vel tempore, provident ipsa sapiente eveniet accusantium consectetur impedit atque sed tenetur veniam adipisci qui libero recusandae ducimus ullam harum optio? Praesentium quod aperiam excepturi!
+        At delectus autem esse, culpa commodi mollitia obcaecati! Natus eum non soluta a voluptates maiores quo voluptatibus iure et veritatis, eos, exercitationem ipsa molestias aliquam corporis sapiente reprehenderit ducimus libero.
+        Libero ratione veniam quae? Totam iure molestias aliquid nam praesentium, iusto labore ratione pariatur laboriosam consectetur voluptatum libero illum asperiores, consequuntur error, beatae accusamus ad quam suscipit odit. Sint, inventore?
+        Explicabo dolore, quidem excepturi quia fuga impedit optio odio amet eveniet eligendi. Adipisci earum ullam, doloremque nisi voluptas aliquam asperiores! Velit reiciendis doloribus tempora debitis voluptas minus neque animi accusamus?
+        Quos magnam magni, asperiores nihil recusandae rerum consequuntur nulla doloremque! Voluptatum reprehenderit architecto modi inventore alias earum molestiae odit id, maxime ducimus error optio possimus repellendus similique eaque dolorem quae?
+        Neque, placeat id fugit animi ipsa ducimus, a nulla commodi magni quae aspernatur esse ab. Dolores odit sunt, magnam animi quibusdam cupiditate nam rem, aliquam voluptatum blanditiis veritatis officiis quia.
+        Ad accusantium repudiandae, quam quaerat in a ducimus hic ab voluptas eius facere vero minima molestiae, atque aliquam cum, itaque possimus? Quaerat blanditiis fugit a, repellat cum aliquid in accusantium.
+    </div>
+
+    <div id="div5">
+        <p>Facebook:<i class="fa-brands fa-facebook"></i></p>
+        <p>Instagram:<i class="fa-brands fa-instagram"></i></p>
+        <p>Whatsapp:<i class="fa-brands fa-whatsapp"></i></p>
+        <p>Youtube:<i class="fa-brands fa-youtube"></i></p>
+        <p>X:<i class="fa-brands fa-x-twitter"></i></p>
+        <p>LinkedIn:<i class="fa-brands fa-linkedin-in"></i></p>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/079c2998c3.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

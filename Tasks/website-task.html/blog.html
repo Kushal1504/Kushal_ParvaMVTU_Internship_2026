@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-devp task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+<body>
+
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="../../Media/eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificates and online programs</h1>
+
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="../../Media/eduford_img/certificate.jpg" alt="">
+                <h2>our certificates</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti alias tempora? Illo nobis inventore, deserunt officiis harum, laboriosam, earum optio dolorum fugit ducimus quod architecto incidunt corporis quas! Tenetur?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, voluptatum? Qui, veniam earum commodi facilis, ipsam mollitia suscipit provident totam odio rem aliquid impedit officiis fuga obcaecati dignissimos! Nostrum, perspiciatis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae molestiae minima illum cumque necessitatibus voluptates.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti alias tempora? Illo nobis inventore, deserunt officiis harum, laboriosam, earum optio dolorum fugit ducimus quod architecto incidunt corporis quas! Tenetur?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, voluptatum? Qui, veniam earum commodi facilis, ipsam mollitia suscipit provident totam odio rem aliquid impedit officiis fuga obcaecati dignissimos! Nostrum, perspiciatis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae molestiae minima illum cumque necessitatibus voluptates.</p>
+            </div>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn">Post Comment</button>
+                </form>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Programming</span>
+                    <span>29</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Cloud Computing</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span>17</span>
+                </div>
+                <div>
+                    <span>Web Development</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Mobile App Development</span>
+                    <span>14</span>
+                </div>
+                <div>
+                    <span>Game Development</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>DevOps</span>
+                    <span>13</span>
+                </div>
+        </div>
+    </section>
+
+    
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos neque fuga laborum atque <br>sit dolores adipisci temporibus minus eius provident?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made with .......</p>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200";
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/079c2998c3.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+Web Development?
+Building a Web Applications
+
+2 Branches:
+Frontend - HTML, CSS, JS, Bootstrap + Bonus(React)
+Backend - 
+Java - Basics, Advance, OOPs, Spring + MySQL
+
+Git Basics:
+
+Create a Repository
+
+git clone "url"
+
+cd new-path
+
+copy files from working folder to github folder
+
+git status
+
+git add filename or git add .
+
+git commit -m "relevant message"
+
+git push origin main

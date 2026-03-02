@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Variables in JavaScript</h1>
+    <p>4 ways to create a variables</p>
+    <h3>1. Automatically</h3>
+    <h3>2. var keyword (not a block scope) - we can redeclare</h3>
+    <h3>3. let keyword (it is a block scope) - we cannot redeclare</h3>
+    <h3>4. const keyword (it is a block scope and we cannot redeclare or reassign)</h3>
+
+    <script>
+        //Automatically --> not recommended
+        first_name = "john";
+        console.log("The first name is: ", first_name);
+
+        //var
+        var last_name = "doe";
+        console.log("The last name is: ", last_name);
+
+        //let
+        let age = 23;
+        console.log("The age is: ", age);
+
+        //const
+        const pi = 3.14;
+        console.log("pi:", pi);
+    </script>
+
+    <script>
+        //redeclaring variables
+        var gender = "M";
+        console.log("Gender is: ", gender);
+        var gender = "F";
+        console.log("Gender is: ", gender);
+
+        let marks = 85;
+        console.log("Marks is: ", marks);
+
+        marks = 90; //reassigning is allowed
+        console.log("Marks is: ", marks);
+
+        const country = "India";
+        console.log("Country is: ", country);
+        //country = "USA"; //reassigning is not allowed
+        console.log("Country is: ", country);
+
+        {
+            var city = "Bangalore";
+            console.log("City is: ", city);
+        }
+        console.log("City is: ", city); //var is not a block scope
+
+        {
+            let state = "Karnataka";
+            console.log("State is: ", state);
+        }
+        console.log("State is: ", state);
+
+    </script>
+</body>
+</html>
