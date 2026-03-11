@@ -1,5 +1,0 @@
-take 3 values from user and among 3 check greater input value 
-
-take value from user and check value is even or odd 
-
-take value from user and check whether values are multiples of 5 or not 
